@@ -4,7 +4,7 @@ go 1.16
 
 require (
 	github.com/go-kratos/kratos/v2 v2.5.3
-	github.com/vmihailenco/msgpack/v5 v5.3.5
+	github.com/vmihailenco/msgpack/v5 v5.4.1
 )
 
 replace github.com/go-kratos/kratos/v2 => ../../../
