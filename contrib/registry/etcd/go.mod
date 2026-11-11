@@ -1,11 +1,28 @@
 module github.com/go-kratos/kratos/contrib/registry/etcd/v2
 
-go 1.16
+go 1.26.0
 
 require (
 	github.com/go-kratos/kratos/v2 v2.5.3
-	go.etcd.io/etcd/client/v3 v3.5.5
-	google.golang.org/grpc v1.50.1
+	go.etcd.io/etcd/client/v3 v3.7.3
+	google.golang.org/grpc v1.83.2
+)
+
+require (
+	github.com/coreos/go-semver v0.3.1 // indirect
+	github.com/coreos/go-systemd/v22 v22.7.0 // indirect
+	github.com/golang/protobuf v1.5.4 // indirect
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
+	go.etcd.io/etcd/api/v3 v3.7.3 // indirect
+	go.etcd.io/etcd/client/pkg/v3 v3.7.3 // indirect
+	go.uber.org/multierr v1.11.0 // indirect
+	go.uber.org/zap v1.27.1 // indirect
+	golang.org/x/net v0.61.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
+	golang.org/x/text v0.43.0 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260803160001-6ac0973c030d // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260803160001-6ac0973c030d // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 )
 
 replace github.com/go-kratos/kratos/v2 => ../../../
