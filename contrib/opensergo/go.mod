@@ -1,6 +1,6 @@
 module github.com/go-kratos/kratos/contrib/opensergo/v2
 
-go 1.17
+go 1.23
 
 require (
 	github.com/go-kratos/kratos/v2 v2.5.3
@@ -8,7 +8,7 @@ require (
 	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd
 	google.golang.org/grpc v1.50.1
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/protobuf v1.36.12
 )
 
 require (
